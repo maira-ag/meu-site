@@ -1,0 +1,175 @@
+@font-face {
+    font-family: "Neue Regrade";
+    src: url('./public/Neue Regrade Variable.ttf') format("truetype");
+}
+
+@font-face {
+    font-family: "Neue Machina";
+    src: url(./public/PPNeueMachina-Regular.otf) format("opentype");
+}
+
+@font-face {
+    font-family: "Machina Bold";
+    src: url(./public/Machina-Bold.otf) format("opentype");
+}
+
+body {
+  background: url('public/gradiente blur.png');
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+/* NAVBAR */
+
+.n4vy-logo {
+    height: 80px;
+    margin-bottom: 5px;
+}
+
+nav {
+    border: 2px solid rgb(255, 255, 255);
+    border-left: none;
+    border-top: none;
+    border-right: none;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10px;
+    margin-right:10px;
+}
+
+/* BOTOES NAVBAR */
+
+button {
+    border-radius: 50px;
+    width: 220px;
+    height: 60px;
+    margin-top: 10px;
+    background: none;
+    color: white;
+    border: 2px solid white;
+    font-size: 20px;
+    font-family: 'Neue Regrade';
+}
+
+.botao-nav-e {
+    margin-left: 20px;
+    transition: 0.3s;
+}
+
+.botao-nav-d {
+    margin-right: 20px;
+    transition: 0.3s;
+}
+
+.botao-nav-e:hover {
+    background: rgba(0, 0, 0, 0.03);
+    backdrop-filter: blur(5px);
+    width: 220px;
+    height: 60px;
+    font-size: 22px;
+}
+
+.botao-nav-d:hover {
+    background: rgba(0, 0, 0, 0.03);
+    backdrop-filter: blur(5px);
+    width: 220px;
+    height: 60px;
+    font-size: 22px;
+}
+
+/* PORTFOLIO TXT */
+
+.portfolio {
+    height: 550px;
+}
+
+.portfolio-div {
+    display: flex;
+    justify-content: center;
+    margin-top: 130px;
+}
+
+/* RODAPÉ */
+
+footer {
+    margin-top: 100px;
+    margin-bottom: none;
+    margin-left: none;
+    font-family: 'Neue Machina';
+    color: white;
+    display: flex;
+    flex-direction: row;
+    background: rgba(0, 0, 0, 0.03);
+    backdrop-filter: blur(5px);
+    position: absolute;
+    bottom:0%;
+    width: 100%;
+    height: 100px;
+    left: 0%;
+}
+
+footer div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+/* SOCIAIS */
+
+.github img {
+    width: 35px;
+    height: 35px;
+}
+
+.github p {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.github {
+    margin-left: 60px;
+    margin-right: 100px
+}
+
+.behance img {
+    width: 32px;
+    height: 35px;
+}
+
+.behance p {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.behance {
+    margin-left: 30px;
+    margin-right: 100px;
+}
+
+.instagram img {
+    width: 28px;
+    height: 35px;
+}
+
+.instagram p {
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.instagram {
+    margin-left: 30px;
+    margin-right: 100px;
+}
+
+/* TEXTO RODAPÉ */
+
+.name-n4vy {
+    margin-left: 670px;
+    margin-right: 20px;
+    font-family: 'Machina Bold';
+}
+
+.copyright {
+    font-family: 'Machina Bold';
+    margin-left: 20px;
+}
