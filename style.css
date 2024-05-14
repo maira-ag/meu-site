@@ -53,36 +53,34 @@ button {
     border: 2px solid white;
     font-size: 20px;
     font-family: 'Neue Regrade';
+    transition: backdrop-filter 1s ease;
+    transition: box-shadow 0.5s ease;
 }
 
 .botao-nav-e {
     margin-left: 20px;
-    transition: 0.3s;
 }
 
 .botao-nav-d {
     margin-right: 20px;
-    transition: 0.3s;
 }
 
 .botao-nav-e:hover {
     background: rgba(0, 0, 0, 0.03);
     backdrop-filter: blur(5px);
-    width: 11vw;
-    height: 6vh;
+    box-shadow: 0px 0px 13px 5px rgba(0, 0, 0, 0.2);
 }
 
 .botao-nav-d:hover {
     background: rgba(0, 0, 0, 0.03);
     backdrop-filter: blur(5px);
-    width: 11vw;
-    height: 6vh;
+    box-shadow: 0px 0px 13px 5px rgba(0, 0, 0, 0.2);
 }
 
 /* PORTFOLIO TXT */
 
 .portfolio-img {
-    height: 550px;
+    height: 51vh;
 }
 
 .portfolio-txt {
